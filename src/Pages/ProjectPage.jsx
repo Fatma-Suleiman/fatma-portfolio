@@ -12,6 +12,7 @@ const projects = [
   subtitle: "Full-Stack EdTech Solution",
   description: "A comprehensive EdTech ecosystem designed to bridge the gap between students and educators. It features a streamlined interface for course management, interactive learning modules, and a responsive design that ensures education is accessible on any device.",
   image: EdunityImg, 
+  stack: ["React", "Component-based Architecture", "Responsive UI"],
   live: "https://edunity-edtech.vercel.app/",
   github: "https://github.com/Fatma-Suleiman/Edunity-EdTech", 
 },
@@ -20,39 +21,37 @@ const projects = [
     description:
       "A high-performance productivity application built to help users organize their daily lives. I focused on creating an intuitive user interface with real-time state updates, ensuring that task management is fluid, fast, and satisfying.",
     image: TodoImg,
+     stack: ["JavaScript", "Client-side Logic"],
     live: "https://todo-app-snowy-chi-48.vercel.app/",
     github: "https://github.com/Fatma-Suleiman/todo-app",
+  },
+ 
+{ 
+   title: "Project Jirani",
+description:
+  "A dynamic application that bridges the gap between local service providers and customers. I focused on building a high-trust interface where users can discover, evaluate, and book services instantly, reducing the friction found in traditional service procurement.",
+image: JiraniImg,
+stack: ["React", "Node.js", "REST APIs", "Service Booking"],  
+    live: "https://kapu-ecommerce.vercel.app/",
+    github: "https://github.com/Fatma-Suleiman/Service-Provision-System",
   },
   {
     title: "Kapu Ecommerce",
     description:
       " A community-driven e-commerce solution designed to make essential goods more affordable and accessible. I built this platform with a focus on high-performance product browsing and a seamless checkout experience tailored for emerging markets.",
     image: KapuImg,
+     stack: ["React", "E-commerce", "Performance Optimization"],
     live: "https://kapu-ecommerce.vercel.app/",
     github: "https://github.com/Fatma-Suleiman/kapu-ecommerce",
   },
 
-  {
-   title: "AI Mental Health",
-description:
-  "An AI-powered mental wellness app designed to support emotional well-being through mood tracking, guided exercises, and personalized conversational AI. I built this platform with a focus on intuitive design, real-time AI interactions, and a seamless user experience to help users stay mindful and balanced every day.",
-image: KapuImg,
-    live: "https://kapu-ecommerce.vercel.app/",
-    github: "https://github.com/Fatma-Suleiman/kapu-ecommerce",
-  },
-{ 
-   title: "Project Jirani",
-description:
-  "A dynamic application that bridges the gap between local service providers and customers. I focused on building a high-trust interface where users can discover, evaluate, and book services instantly, reducing the friction found in traditional service procurement.",
-image: JiraniImg,
-    live: "https://kapu-ecommerce.vercel.app/",
-    github: "https://github.com/Fatma-Suleiman/Service-Provision-System",
-  },
+
   { 
   title: "Flower Shop",
 description:
-  "A sophisticated e-commerce experience designed for a premium floral brand. I focused on creating a high-end visual aesthetic using minimalist design principles, ensuring that the vibrant product imagery remains the focal point while providing a seamless, elegant path to purchase.",
+  "A sophisticated e-commerce experience designed for a premium floral brand. I focused on creating a high-end visual aesthetic using minimalist design principles, ensuring that the vibrant product imagery remains the focal point.",
 image: FlowerImg,
+stack: ["Responsive UI", "UX-Focused Design"],
     live: "https://flower-shop-three-zeta.vercel.app/",
     github: "https://github.com/Fatma-Suleiman/Flower-Shop-Ecommerce",
   },
@@ -98,6 +97,18 @@ function ProjectCard({ project }) {
       <p className="text-green-200 text-sm leading-relaxed mb-6">
         {project.description}
       </p>
+
+      <div className="flex flex-wrap gap-2 mb-4">
+  {project.stack.map((tech, idx) => (
+    <span
+      key={idx}
+      className="bg-white text-black text-xs font-semibold px-2 py-1 rounded-full"
+    >
+      {tech}
+    </span>
+  ))}
+</div>
+
 
     
       <div className="rounded-xl overflow-hidden mb-6 border border-green-400/30">

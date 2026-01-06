@@ -50,7 +50,7 @@ function Navbar() {
           <li key={item.id} className="p-4 cursor-pointer">
             {item.isFile ? (
               <a
-               href="https://drive.google.com/file/d/1nIR6UKo17vcsO7FwkGn6Wj_Rf9G6J1J4/preview"
+               href="https://drive.google.com/file/d/1nIR6UKo17vcsO7FwkGn6Wj_Rf9G6J1J4/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="border border-[#00df9a] text-[#00df9a] px-4 py-2 rounded-md hover:bg-[#00df9a] hover:text-black transition duration-300"

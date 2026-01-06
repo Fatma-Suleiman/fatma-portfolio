@@ -13,6 +13,7 @@ import {
 
 import {
   SiTailwindcss,
+  SiMysql,
   SiPostman,
  SiTypescript,
 
@@ -23,7 +24,6 @@ const skills = [
   { name: "HTML", icon: <FaHtml5 /> },
   { name: "JavaScript", icon: <FaJs /> },
   { name: "React", icon: <FaReact /> },
-  { name: "React Native", icon: <FaReact /> },
     { name: "Typescript", icon: <SiTypescript/> },
   { name: "Tailwind CSS", icon: <SiTailwindcss /> },
 
@@ -33,7 +33,8 @@ const skills = [
 const tools = [
   { name: "Git/GitHub", icon: <FaGitAlt /> },
   { name: "Figma", icon: <FaFigma /> },
-  { name: "Postman", icon: <SiPostman /> },
+  { name: "Mysql", icon: <SiMysql /> },
+    { name: "Postman", icon: <SiPostman /> },
 ];
 
 
@@ -102,8 +103,8 @@ function AboutPage() {
                 My Core Focus: Impactful Code for a Clean Tomorrow
               </h3>
               <p className="italic">
-                Passionate about sustainable energy, AI, IoT, and smart cities—
-                using code to build a cleaner tomorrow aligned with Vision 2030.
+                I believe in using technology for positive impact, contributing to innovation and growth
+                 aligned with forward-looking goals like Vision 2030.
               </p>
             </div>
 

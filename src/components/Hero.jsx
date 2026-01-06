@@ -11,14 +11,14 @@ function Hero(){
           <p className='md:text-5xl sm:text-4xl text-xl font-bold py-4'>
             I'm a </p>
             <ReactTyped className='md:text-5xl sm:text-4xl text-xl font-bold md:pl-4 pl-2 '
-              strings={['Frontend Developer', 'React Developer', 'TypeScript Developer','UI/UX Enthusiast']}
+              strings={['Frontend Developer', 'React Developer','UI/UX Enthusiast']}
               typeSpeed={120}
               backSpeed={130}
               loop
             />
          
         </div>
-        <p className='md:text-2xl text-xl font-bold text-gray-500'>I specialize in building responsive, user-friendly web applications using React and Tailwind CSS, TypeScript for rock-solid stability. Passionate about clean design, modern UI, and seamless user experiences.</p>
+        <p className='md:text-2xl text-xl font-bold text-gray-500'>I build responsive, user-friendly web applications using React and Tailwind CSS, focusing on clean design, modern interfaces, and seamless user experiences that feel intuitive and polished.</p>
       
       </div>
     </div>
