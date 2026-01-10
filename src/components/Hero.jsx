@@ -11,7 +11,7 @@ function Hero(){
           <p className='md:text-5xl sm:text-4xl text-xl font-bold py-4'>
             I'm a </p>
             <ReactTyped className='md:text-5xl sm:text-4xl text-xl font-bold md:pl-4 pl-2 '
-              strings={['Frontend Developer', 'React Developer','UI/UX Enthusiast']}
+              strings={['Web Developer, Frontend Developer', 'React Developer','UI/UX Enthusiast']}
               typeSpeed={120}
               backSpeed={130}
               loop
