@@ -18,7 +18,7 @@ function Hero(){
             />
          
         </div>
-        <p className='md:text-2xl text-xl font-bold text-gray-500'>I build responsive, user-friendly web applications using React and Tailwind CSS, focusing on clean design, modern interfaces, and seamless user experiences that feel intuitive and polished.</p>
+        <p className='md:text-2xl text-xl font-bold text-gray-500'>I build responsive, user-friendly full-stack web applications using React, Tailwind CSS, and Node.js, with a strong focus on clean design, modern interfaces, and seamless, intuitive user experiences.</p>
       
       </div>
     </div>

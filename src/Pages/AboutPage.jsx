@@ -88,7 +88,7 @@ function AboutPage() {
             </p>
 
             <h1 className="text-gray-900 md:text-5xl sm:text-4xl text-3xl font-black py-2 mb-6 border-b">
-              Building Solutions Where Business Strategy Meets Frontend Excellence
+            Building Full-Stack Solutions Where Business Strategy Meets Frontend Excellence
             </h1>
 
             <p className="text-gray-600 text-lg mb-4 leading-relaxed">
@@ -103,7 +103,7 @@ function AboutPage() {
                 My Core Focus: Impactful Code for a Clean Tomorrow
               </h3>
               <p className="italic">
-                I believe in using technology for positive impact, contributing to innovation and growth
+                I believe in using technology for social impact, contributing to innovation and growth
                  aligned with forward-looking goals like Vision 2030.
               </p>
             </div>
