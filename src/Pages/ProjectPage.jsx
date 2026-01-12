@@ -35,15 +35,15 @@ stack: ["React", "Node.js", "REST APIs", "Service Booking"],
     live: "https://servicesystem-omega.vercel.app/",
     github: "https://github.com/Fatma-Suleiman/Service-Provision-System",
   },
-  {
-    title: "Kapu Ecommerce",
-    description:
-      " A community-driven e-commerce solution designed to make essential goods more affordable and accessible. I built this platform with a focus on high-performance product browsing and a seamless checkout experience tailored for emerging markets.",
-    image: KapuImg,
-     stack: ["React", "E-commerce", "Performance Optimization"],
-    live: "https://kapu-ecommerce.vercel.app/",
-    github: "https://github.com/Fatma-Suleiman/kapu-ecommerce",
-  },
+  // {
+  //   title: "Kapu Ecommerce",
+  //   description:
+  //     " A community-driven e-commerce solution designed to make essential goods more affordable and accessible. I built this platform with a focus on high-performance product browsing and a seamless checkout experience tailored for emerging markets.",
+  //   image: KapuImg,
+  //    stack: ["React", "E-commerce", "Performance Optimization"],
+  //   live: "https://kapu-ecommerce.vercel.app/",
+  //   github: "https://github.com/Fatma-Suleiman/kapu-ecommerce",
+  // },
 
 
   { 
