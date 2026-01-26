@@ -31,7 +31,7 @@ const projects = [
       "A dynamic application that bridges the gap between local service providers and customers. I focused on building a high-trust interface where users can discover, evaluate, and book services instantly, reducing the friction found in traditional service procurement.",
     image: JiraniImg,
     stack: ["React", "Node.js", "REST APIs", "Service Booking"],
-    live: "https://servicesystem-omega.vercel.app/",
+    live: "https://serviceprovision-jirani.vercel.app/",
     github: "https://github.com/Fatma-Suleiman/Service-Provision-System",
   },
   // {
@@ -68,7 +68,6 @@ export default function ProjectPage() {
           ))}
         </div>
 
-        {/* 🔗 View More Projects Button */}
         <div className="flex justify-center">
           <a
             href="https://github.com/Fatma-Suleiman"
