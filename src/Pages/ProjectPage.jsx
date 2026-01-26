@@ -6,6 +6,17 @@ import JiraniImg from "../assets/jirani.PNG";
 import FlowerImg from "../assets/flower.PNG";
 
 const projects = [
+
+    {
+    title: "Project Jirani",
+    description:
+      "A dynamic application that bridges the gap between local service providers and customers. I focused on building a high-trust interface where users can discover, evaluate, and book services instantly, reducing the friction found in traditional service procurement.",
+    image: JiraniImg,
+    stack: ["React", "Node.js", "REST APIs", "Service Booking"],
+    live: "https://serviceprovision-jirani.vercel.app/",
+    github: "https://github.com/Fatma-Suleiman/Service-Provision-System",
+  },
+  
   {
     title: "Edunity",
     subtitle: "Full-Stack EdTech Solution",
@@ -25,15 +36,7 @@ const projects = [
     live: "https://todo-app-snowy-chi-48.vercel.app/",
     github: "https://github.com/Fatma-Suleiman/todo-app",
   },
-  {
-    title: "Project Jirani",
-    description:
-      "A dynamic application that bridges the gap between local service providers and customers. I focused on building a high-trust interface where users can discover, evaluate, and book services instantly, reducing the friction found in traditional service procurement.",
-    image: JiraniImg,
-    stack: ["React", "Node.js", "REST APIs", "Service Booking"],
-    live: "https://serviceprovision-jirani.vercel.app/",
-    github: "https://github.com/Fatma-Suleiman/Service-Provision-System",
-  },
+
   // {
   //   title: "Kapu Ecommerce",
   //   description:
