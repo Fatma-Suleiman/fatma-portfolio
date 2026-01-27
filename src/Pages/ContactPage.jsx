@@ -1,4 +1,5 @@
 import {Footer } from "../components/Footer";
+import { useForm, ValidationError } from "@formspree/react";
 import { Phone, Github, Linkedin } from "lucide-react";
 
 
@@ -89,7 +90,18 @@ function SocialCard({ icon, title, desc, href }) {
 }
 
 
-function ContactForm() {
+
+export function ContactForm() {
+  const [state, handleSubmit] = useForm("xbdopoan");
+
+  if (state.succeeded) {
+    return (
+      <p className="text-[#00df9a] font-bold text-xl">
+        Thanks for reaching out! I'll get back to you soon.
+      </p>
+    );
+  }
+
   return (
     <section className="bg-white rounded-2xl p-8 shadow-lg border border-slate-200">
       <h2 className="text-3xl font-bold mb-4">Get In Touch</h2>
@@ -98,34 +110,40 @@ function ContactForm() {
         hello, I'll try my best to get back to you!
       </p>
 
-      <form
-        className="grid gap-4"
-        action="mailto:yourmail@example.com"
-        method="POST"
-        encType="text/plain"
-      >
+    
+      <form className="grid gap-4" onSubmit={handleSubmit}>
         <input
           className="rounded-lg bg-slate-50 border border-slate-300 p-3 outline-none focus:ring-2 focus:ring-[#00df9a]"
+          id="name"
           type="text"
           name="name"
           placeholder="Your Name"
           required
         />
+
         <input
           className="rounded-lg bg-slate-50 border border-slate-300 p-3 outline-none focus:ring-2 focus:ring-[#00df9a]"
+          id="email"
           type="email"
           name="email"
           placeholder="Your Email"
           required
         />
+        <ValidationError prefix="Email" field="email" errors={state.errors} />
+
         <textarea
           className="rounded-lg bg-slate-50 border border-slate-300 p-3 outline-none focus:ring-2 focus:ring-[#00df9a]"
+          id="message"
           name="message"
           rows="4"
           placeholder="Your Message"
+          required
         />
+        <ValidationError prefix="Message" field="message" errors={state.errors} />
+
         <button
           type="submit"
+          disabled={state.submitting}
           className="mt-4 rounded-xl bg-[#00df9a] hover:bg-[#00c98a] transition px-6 py-3 font-semibold text-black"
         >
           Send Message
@@ -134,5 +152,6 @@ function ContactForm() {
     </section>
   );
 }
+
 
 
