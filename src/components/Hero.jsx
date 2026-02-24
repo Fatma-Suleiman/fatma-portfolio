@@ -11,14 +11,17 @@ function Hero(){
           <p className='md:text-5xl sm:text-4xl text-xl font-bold py-4'>
             I'm a </p>
             <ReactTyped className='md:text-5xl sm:text-4xl text-xl font-bold md:pl-4 pl-2 '
-              strings={['Web Developer', 'Frontend Developer', 'React Developer','UI/UX Enthusiast']}
+              strings={['Web Developer','PHP & Yii2 Developer', 'Frontend Developer', 'React Developer','UI/UX Enthusiast']}
               typeSpeed={120}
               backSpeed={130}
               loop
             />
          
         </div>
-        <p className='md:text-2xl text-xl font-bold text-gray-500'>I build responsive, user-friendly full-stack web applications using React, Tailwind CSS, and Node.js, with a strong focus on clean design, modern interfaces, and seamless, intuitive user experiences.</p>
+        <p className='md:text-2xl text-xl font-bold text-gray-500'>
+          I build responsive, user-friendly full-stack web applications using  PHP/Yii2, React, Tailwind CSS, and Node.js. 
+          My work covers both frontend and backend, including database integration, authentication, and CMS-driven content. 
+          I focus on clean design, modern interfaces, and scalable, maintainable code.</p>
       
       </div>
     </div>

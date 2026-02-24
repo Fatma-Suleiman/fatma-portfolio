@@ -2,8 +2,10 @@ import React from "react";
 import AboutPortfolio from "../assets/aboutportfolio.jpg";
 import { motion } from "framer-motion";
 
+
 import {
   FaHtml5,
+  FaPhp,
   FaJs,
   FaReact,
   FaGitAlt,
@@ -16,6 +18,9 @@ import {
   SiMysql,
   SiPostman,
  SiTypescript,
+ SiBootstrap,
+  SiPhp,
+   SiApache
 
 } from "react-icons/si";
 
@@ -26,6 +31,9 @@ const skills = [
   { name: "React", icon: <FaReact /> },
     { name: "Typescript", icon: <SiTypescript/> },
   { name: "Tailwind CSS", icon: <SiTailwindcss /> },
+   { name: "PHP", icon: <FaPhp /> },            
+  { name: "Yii2", icon: <SiPhp /> },           
+  { name: "Bootstrap 5", icon: <SiBootstrap /> }, 
 
 
 ];
@@ -35,6 +43,7 @@ const tools = [
   { name: "Figma", icon: <FaFigma /> },
   { name: "Mysql", icon: <SiMysql /> },
     { name: "Postman", icon: <SiPostman /> },
+    { name: "XAMPP", icon: <SiApache /> },
 ];
 
 

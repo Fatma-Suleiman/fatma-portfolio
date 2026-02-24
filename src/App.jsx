@@ -7,12 +7,11 @@ import ContactPage from '/src/Pages/ContactPage';
 import Cursor from '/src/components/Cursor';
 
 import './App.css'
-import './App.css'
 
  function App() {
   return (
       <div className="relative">
-      {/* Custom cursor */}
+      
       <Cursor />
 <Routes>
   <Route index  element={<HomePage/>} />

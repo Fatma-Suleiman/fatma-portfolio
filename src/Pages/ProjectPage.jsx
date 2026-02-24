@@ -4,8 +4,21 @@ import TodoImg from "../assets/todo.PNG";
 import KapuImg from "../assets/kapu.PNG";
 import JiraniImg from "../assets/jirani.PNG";
 import FlowerImg from "../assets/flower.PNG";
+import  ArticleSpaceImg from "../assets/articlespace.PNG";
 
 const projects = [
+
+  {
+    title: "ArticleSpace",
+    subtitle: "PHP Yii2 Blog Platform",
+    description:
+      "A simple yet powerful blog platform built with Yii2 MVC. It features user authentication, article CRUD operations, and a profile dashboard. Guests can read articles, while registered users can create, update, and manage their own content.",
+    image: ArticleSpaceImg,
+    stack: ["PHP", "Yii2 MVC", "MySQL", "Bootstrap 5", "Responsive Design"],
+    live: "https://opuscular-undeniably-diana.ngrok-free.dev", 
+    github: "https://github.com/Fatma-Suleiman/ArticleSpace",
+  },
+
 
     {
     title: "Project Jirani",
